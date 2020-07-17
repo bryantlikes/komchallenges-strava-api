@@ -1,4 +1,7 @@
-﻿using AspNet.Security.OAuth.Strava;
+﻿// Copyright (c) Bryant Likes. All rights reserved.
+// Licensed under the MIT License. See LICENSE in the project root for license information.
+
+using AspNet.Security.OAuth.Strava;
 using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
