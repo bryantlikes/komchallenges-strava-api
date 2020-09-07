@@ -36,6 +36,7 @@ namespace KomChallenges.StravaApi
         public string Visibility { get; set; }
         public bool Flagged { get; set; }
         public decimal Calories { get; set; }
+        public StravaMap Map { get; set; }
         [JsonPropertyName("segment_efforts")]
         public IEnumerable<StravaSegmentEffort> SegmentEfforts { get; set; }
     }
